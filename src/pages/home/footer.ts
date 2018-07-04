@@ -1,7 +1,6 @@
-import { Component, ViewChild, ElementRef, OnInit } from '@angular/core';
-import { NavController, NavParams, Platform, Content, ViewController, ToastController } from 'ionic-angular';
- import { HomePage } from '../home/home'; 
-
+import { Component} from '@angular/core';
+import { NavController} from 'ionic-angular';
+ 
 @Component({
 	selector: 'footer',
 	templateUrl: 'footer.html' 
