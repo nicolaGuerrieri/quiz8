@@ -14,3 +14,15 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+@font-face {
+    font-family: Sketch_3D;
+    src: url(../assets/fonts/Sketch_3D.woff) format("woff");
+    font-weight: 200
+    }
+ 
+    page-home {
+        font-family: Sketch_3D !important;
+      }
+      page-categoria {
+        font-family: Sketch_3D !important;
+      }

@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{global.title}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div class="row">&nbsp;</div>
+  <div class="row">&nbsp;</div>
+  <div class="row">&nbsp;</div>
+  <div id="welcome" class="boxWelcome animated bounceInDown padding100">
+    <h2>Scegli una categoria</h2>
+    <div class="testoWelcome">
+      <p (click)="scegltaCategoria(1)">> Cucina</p>
+       <p (click)="scegltaCategoria(3)">> Scienza</p>
+      <p (click)="scegltaCategoria(4)">> Curiosità</p>
+      <p (click)="scegltaCategoria(2)">> Nerd</p>
+    </div>
+  </div>
+
+</ion-content>
+<footer></footer>
